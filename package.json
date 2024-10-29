@@ -1,0 +1,23 @@
+{
+	"name": "sneaker-website",
+	"version": "1.0.0",
+	"description": "A sneaker website
+	showcasing popular sneaker
+	collections",
+	"main": "index.html",
+	"scripts": {
+		"start": "live-server",
+		"lint": "eslint ./",
+		"sass": "sass --watch src/scss:src/
+		css",
+		"test": "echo \"No test specified\"
+		&& exit 1"
+	},
+	"author": "Your Name",
+	"license": "ISC",
+	"devDependencies": {
+		"live-server": "^1.2.1",
+		"eslint": "^8.0.0",
+		"sass": "^1.64.0"
+	}
+}
