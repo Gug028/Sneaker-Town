@@ -1,23 +1,20 @@
 {
 	"name": "sneaker-website",
 	"version": "1.0.0",
-	"description": "A sneaker website
-	showcasing popular sneaker
-	collections",
-	"main": "index.html",
+	"description": "A website showcasing
+	sneakers, built with HTML, CSS and
+	JavaScript.",
+	"main": "index.js",
 	"scripts": {
 		"start": "live-server",
-		"lint": "eslint ./",
-		"sass": "sass --watch src/scss:src/
-		css",
-		"test": "echo \"No test specified\"
-		&& exit 1"
+		"lint": "eslint .",
+		"build": "echo 'Build process not
+		defined yet':
 	},
-	"author": "Your Name",
-	"license": "ISC",
+	"author": "Gug028",
+	"license": "MIT",
 	"devDependencies": {
-		"live-server": "^1.2.1",
 		"eslint": "^8.0.0",
-		"sass": "^1.64.0"
+		"live-server": "^1.2.1"
 	}
 }
